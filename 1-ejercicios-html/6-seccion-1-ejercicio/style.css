@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.button::after {
+    content: "Pasa por encima";
+}
+.button:hover {
+    background-color: green;
+    color: white;
+}
+button.button::after {
+    content: "¡Hecho!";
+}

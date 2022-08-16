@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.father {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+}
+.btn-modern {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: aqua;
+    transition: all 0.4s;
+}
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 0.8px 0.8px green ;
+    background-color: chartreuse;
+    color: rgb(163, 99, 14);
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <title>Elementos de Interés en Bootstrap</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-3 fw-bold">Custom jumbotron</h1>
+                    <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#myModal"">Example Button</button>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">WOW!! tenemos un modal</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Maravilloso!!, esto es un muy buen avance</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="container m-5 bg-light p-4">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="name" class="form-control" id="name" aria-describedby="name-help">
+                    <div id="name-help" class="form-text">Escribe tu nombre completo</div>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Número de teléfono</label>
+                    <input type="phone" class="form-control" id="phone" aria-describedby="phone-help">
+                    <div id="phone-help" class="form-text">(+34) xxx xxx xxx</div>
+                </div>
+                <div class="mb-3">
+                    <label for="Textarea" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="Textarea" rows="3"></textarea>
+                  </div>
+            </form>
+        </div>
+        <div class="container m-5 bg-info p-4" style="--bs-bg-opacity: .8;">
+            <div class="card text-center">
+                <div class="card-header display-5">
+                  Mariangelica Rodriguez
+                </div>
+                <div class="card-body p-4">
+                  <h5 class="card-title lead">UX Front end Developer</h5>
+                  <p class="card-text">Mi principal objetivo es conocer las necesidades de las personas para mejorar sus vidas a través de la tecnología.</p>
+                </div>
+                <div class="card-footer text-muted p-4">
+                    <a href="mailto: contacto@gromarant.com" class="link-primary">contacto@gromarant.com</a>
+                </div>
+              </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </body>
+</html>
