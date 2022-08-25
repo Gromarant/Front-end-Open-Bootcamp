@@ -1,0 +1,14 @@
+{
+  "name": "2-ejercicios-javascript",
+  "version": "1.0.0",
+  "description": "segundo ejercicio del curso de js en Open Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "secondExercise"
+  ],
+  "author": "Mariangelica Rodriguez",
+  "license": "ISC"
+}
