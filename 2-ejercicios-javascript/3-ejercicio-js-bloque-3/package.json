@@ -1,0 +1,14 @@
+{
+  "name": "3-ejercicio-js-bloque-3",
+  "version": "1.0.0",
+  "description": "curso de Js OpenBootcamp/ ejercicio 1 / bloque 3-Estructuras de control",
+  "main": "factorial-break.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "thirdproject"
+  ],
+  "author": "Mariangelica Rodriguez",
+  "license": "ISC"
+}
