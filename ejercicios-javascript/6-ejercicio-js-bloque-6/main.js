@@ -10,13 +10,13 @@
 
 //  4. Una lista de tus 3 películas favoritas (objetos con propiedades: titulo, director, fecha)
     let favoriteMovies = [
-        {titulo: 'Porco Rosso', director: 'Hayao Miyazaki', fecha: 01/09/1994},
-        {titulo: 'Mujercitas', director: 'Greta Gerwig', fecha: 25/12/2019},
-        {titulo: 'Orgullo y prejuicio', director: 'Joe Wright', fecha: 10/02/2006}
+        {titulo: 'Porco Rosso', director: 'Hayao Miyazaki', fecha: new Date (1994, 09, 01)},
+        {titulo: 'Mujercitas', director: 'Greta Gerwig', fecha: new Date (2019, 12, 25 )},
+        {titulo: 'Orgullo y prejuicio', director: 'Joe Wright', fecha: new Date (2006, 02, 10)}
     ];
 
 // 5. Una nueva lista que contenga las películas posteriores al 1 de enero de 2010 (utilizando filter)
-    const AfterJanuaryFirst = favoriteMovies.find( After => After.fecha > 01/01/2010 );
+    const AfterJanuaryFirst = favoriteMovies.find( After => After.fecha > new Date(2010, 01, 01));
 
 // 6. Una nueva lista que contenga los directores de la lista de películas original (utilizando map)
     const directors = favoriteMovies.map( direct => direct.director);
