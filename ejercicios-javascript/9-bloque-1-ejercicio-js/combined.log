@@ -1,0 +1,2 @@
+{"level":"error","message":"function Error() { [native code] }","service":"user-service"}
+{"level":"error","message":"You must have drive license","service":"user-service"}
