@@ -1,0 +1,12 @@
+{
+  "name": "14-bloque-1-ejercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "http": "http-server ./ -p 0"
+  },
+  "keywords": [],
+  "author": "Mariangelica Rodriguez",
+  "license": "ISC"
+}
