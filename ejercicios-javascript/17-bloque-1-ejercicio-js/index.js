@@ -12,7 +12,6 @@ function initMap() {
   });
   
   const labels = `${/A-Z/}`;
-  console.log( labels);
   const markers = locations.map(( position, i ) => {
     const label = labels[ i % labels.length ];
     const marker = new google.maps.Marker({
